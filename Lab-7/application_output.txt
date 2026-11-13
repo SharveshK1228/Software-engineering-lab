@@ -1,0 +1,8 @@
+==== Running nights_stayed ====
+Nights: 3
+
+==== Running room_floor ====
+Floor: 3
+
+==== Running booking_label ====
+Booking Label: Ravi +1

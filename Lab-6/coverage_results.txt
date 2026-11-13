@@ -1,0 +1,11 @@
+Lab 6 verification
+==================
+Command: py -3.12 -m coverage run -m pytest -q "Lab 6/test_hotel_booking.py"
+Result: 21 passed.
+Command: py -3.12 -m coverage report -m "Lab 6/hotel_booking.py"
+Result: 100% line coverage (32 statements, 0 missed).
+
+Command: py -3.12 -m coverage run --branch -m pytest -q "Lab 6/test_hotel_booking.py"
+Result: 21 passed.
+Command: py -3.12 -m coverage report -m "Lab 6/hotel_booking.py"
+Result: 100% branch coverage (32 statements, 22 branches, 0 partial).
